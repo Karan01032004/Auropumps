@@ -1,0 +1,6 @@
+@Poweradmin.Server_HostAddress = http://localhost:5039
+
+GET {{Poweradmin.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

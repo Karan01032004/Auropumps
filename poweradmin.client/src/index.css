@@ -1,0 +1,153 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+    --text-light: #1d2939; /* light text */
+    --input-bg: #ffffff;
+    --input-border: #d1d5db;
+    --input-text: #111827;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color-scheme: light;
+    background-color: #ffffff;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dark {
+    --text-light: #ffffff; /* dark mode */
+}
+html, body {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--text-light);
+}
+html {
+    color-scheme: light;
+}
+    html.dark {
+        --text-light: #ffffff; /* dark text */
+        color-scheme: dark;
+        --input-bg: #020617;
+        --input-border: #374151;
+        --input-text: #e5e7eb;
+    }
+#root{
+    width:100%;
+}
+/* Hide scrollbar but allow scrolling */
+.sidebar-hide-scroll {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE & Edge */
+}
+
+    .sidebar-hide-scroll::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+
+/* ===============================
+   DATATABLE BASE
+================================ */
+table.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb; /* outer border */
+}
+
+    /* Header - Light */
+    table.dataTable thead th {
+        padding: 14px 16px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #111827;
+        background-color: #ffffff;
+        border: 1px solid #e5e7eb;
+    }
+
+/* Header - Dark */
+html.dark table.dataTable thead th {
+    color: #e5e7eb;
+    background-color: #111827;
+    border-color: #374151;
+}
+
+    /* Body cells */
+    table.dataTable tbody td {
+        padding: 14px 16px;
+        font-size: 15px;
+        border: 1px solid #e5e7eb;
+        vertical-align: middle;
+    }
+
+    /* Row hover */
+    table.dataTable tbody tr:hover {
+        background-color: #f9fafb;
+    }
+
+div.dt-container .dt-paging .dt-paging-button {
+    border: 1px solid #d6d6d6 !important;
+}
+    main div.dt-container .dt-paging .dt-paging-button.current,main div.dt-container .dt-paging .dt-paging-button.current:hover {
+        background: linear-gradient(to bottom, rgb(88.4, 88.4, 88.4) 0%, #111 100%) !important;
+        color: #fff !important;
+    }
+table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order:before {
+    bottom: 0%;
+}
+table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order:after {
+    top: 110%;
+}
+
+/* ===============================
+   DATATABLE DARK MODE
+================================ */
+
+/* Body cells */
+html.dark table.dataTable tbody td {
+    border-color: #374151; /* dark border */
+    color: #e5e7eb; /* light text */
+    background-color: #020617; /* dark row bg */
+}
+
+/* Row hover */
+html.dark table.dataTable tbody tr:hover {
+    background-color: #020617; /* hover dark */
+}
+
+/* Pagination buttons */
+html.dark div.dt-container .dt-paging .dt-paging-button {
+    border-color: #374151 !important;
+    color: #e5e7eb;
+}
+
+/* Current page */
+html.dark main div.dt-container .dt-paging .dt-paging-button.current,
+html.dark main div.dt-container .dt-paging .dt-paging-button.current:hover {
+    background: linear-gradient( to bottom, #1f2937 0%, #020617 100% ) !important;
+    color: #ffffff !important;
+}
+
+/* Sorting icons */
+html.dark table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order:before,
+html.dark table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order:after {
+    color: #9ca3af;
+}
+html.dark table.dataTable tbody tr:hover {
+    background-color: #020617;
+}
+html.dark .dt-container .dt-search input, html.dark .dt-container .dt-length select {
+    background-color: #020617 !important;
+}
+
+@media (max-width:992px){
+    .dt-container{
+        overflow:scroll;
+    }
+}

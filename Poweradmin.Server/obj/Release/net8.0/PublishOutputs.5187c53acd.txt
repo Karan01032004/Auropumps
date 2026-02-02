@@ -1,0 +1,12 @@
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Poweradmin.Server.exe
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Poweradmin.Server.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Poweradmin.Server.deps.json
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Poweradmin.Server.runtimeconfig.json
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Poweradmin.Server.pdb
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.SpaProxy.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

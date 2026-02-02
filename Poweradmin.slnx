@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="poweradmin.client/poweradmin.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Poweradmin.Server/Poweradmin.Server.csproj" />
+</Solution>

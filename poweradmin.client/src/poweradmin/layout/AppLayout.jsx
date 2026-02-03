@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import { useState } from "react";
 import AppSidebar from "./AppSidebar";
 import AppHeader from "./AppHeader";
+import AppFooter from "./AppFooter";
 
 const AppLayout = () => {
     // Mobile sidebar (overlay)
@@ -38,6 +39,8 @@ const AppLayout = () => {
                 <main className="flex-1 overflow-y-auto p-6 bg-[#f9fafb] dark:bg-gray-900">
                     <Outlet />
                 </main>
+
+                <AppFooter/>
             </div>
         </div>
     );

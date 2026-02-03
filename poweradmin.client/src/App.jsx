@@ -25,7 +25,6 @@ function App() {
                 <Route path="signin" element={<SignIn />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/verify-otp" element={<OtpVerify />} />
-
                 <Route path="/poweradmin" element={<AppLayout />}>
                     <Route path="dashboard" element={<Dashboard />} />
                     <Route path="inquiry" element={<InquiryTable />} />
@@ -36,7 +35,6 @@ function App() {
                     <Route path="view-category" element={<ViewCategory />} />
                     <Route path="add-blog" element={<AddBlog />} />
                     <Route path="view-blog" element={<ViewBlog />} />
-
                     <Route path="banner" element={<BannerManagement />}>
                         <Route index element={<BannerTable />} />
                         <Route path="add" element={<BannerForm />} />

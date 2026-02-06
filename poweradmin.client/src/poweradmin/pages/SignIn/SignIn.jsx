@@ -24,7 +24,7 @@ const SignIn = () => {
 
             // success
             localStorage.setItem("user", JSON.stringify(res.data));
-            navigate("/poweradmin/dashboard");
+            navigate("/poweradmin/dashboarddgd");
         } catch (err) {
             setError(err.response?.data?.message || "Login failed");
         } finally {

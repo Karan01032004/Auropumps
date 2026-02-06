@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Poweradmin.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47e169a2e7c6e4354590dc3215c09f33ae860d04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+320ba4621dc6893fb6cef4029167b193fc91a8fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Poweradmin.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Poweradmin.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

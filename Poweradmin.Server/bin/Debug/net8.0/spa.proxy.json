@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:62283",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\chaitali\\react projects\\Poweradmin\\Poweradmin.Server\\..\\poweradmin.client",
+"WorkingDirectory": "C:\\Users\\DNC\\Desktop\\mvc\\Poweradmin\\Poweradmin\\Poweradmin.Server\\..\\poweradmin.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

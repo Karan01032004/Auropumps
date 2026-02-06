@@ -10,6 +10,7 @@
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint .</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonDependenciesTinymceTinymceReact Condition="$(PackageJsonDependenciesTinymceTinymceReact) == ''">^6.3.0</PackageJsonDependenciesTinymceTinymceReact>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.13.4</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesDatatablesNetDt Condition="$(PackageJsonDependenciesDatatablesNetDt) == ''">^2.3.6</PackageJsonDependenciesDatatablesNetDt>
     <PackageJsonDependenciesDatatablesNetReact Condition="$(PackageJsonDependenciesDatatablesNetReact) == ''">^1.0.1</PackageJsonDependenciesDatatablesNetReact>
     <PackageJsonDependenciesDatatablesNetResponsive Condition="$(PackageJsonDependenciesDatatablesNetResponsive) == ''">^3.0.7</PackageJsonDependenciesDatatablesNetResponsive>

@@ -1,110 +1,89 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import AppFooter from "../../layout/AppFooter";
-
+import api from "../../api/axios";
 
 const SignIn = () => {
-    return (
-        <div
-            className="min-h-screen flex flex-col
-            bg-[#f3f4f6] dark:bg-gray-900
-            bg-[radial-gradient(circle,rgba(0,0,0,0.08)_1px,transparent_1px)]
-            dark:bg-[radial-gradient(circle,rgba(255,255,255,0.08)_1px,transparent_1px)]
-            [background-size:20px_20px]
-            transition-colors"
-        >
-            {/* Center Content */}
-            <div className="flex flex-1 items-center justify-center">
-                {/* Card */}
-                <div
-                    className="w-full max-w-md rounded-md px-8 py-10 shadow-xl
-                    bg-white dark:bg-slate-800
-                    text-gray-800 dark:text-gray-100"
-                >
-                    {/* Logo */}
-                    <div className="flex justify-center mb-6">
-                        <img
-                            src="/images/logo.png"
-                            alt="Alembic"
-                            className="h-14 object-contain"
-                        />
-                    </div>
+    const navigate = useNavigate();
 
-                    {/* Title */}
-                    <h2
-                        className="text-center text-2xl font-medium mb-6
-                        text-blue-800 dark:text-white"
-                    >
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState("");
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError("");
+        setLoading(true);
+
+        try {
+            const res = await api.post("/login", {
+                username,
+                password,
+            });
+
+            // success
+            localStorage.setItem("user", JSON.stringify(res.data));
+            navigate("/poweradmin/dashboard");
+        } catch (err) {
+            setError(err.response?.data?.message || "Login failed");
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    return (
+        <div className="min-h-screen flex flex-col bg-[#f3f4f6]">
+            <div className="flex flex-1 items-center justify-center">
+                <div className="w-full max-w-md rounded-md px-8 py-10 shadow-xl bg-white">
+
+                    <h2 className="text-center text-2xl font-medium mb-6">
                         Sign In
                     </h2>
 
-                    {/* Username */}
-                    <div className="mb-4">
-                        <input
-                            type="text"
-                            placeholder="Username"
-                            className="w-full rounded px-4 py-2 text-sm 
-                            bg-blue-50 dark:bg-slate-700
-                            border border-gray-200 dark:border-slate-600
-                            text-gray-800 dark:text-gray-100
-                            placeholder-gray-400
-                            focus:outline-none focus:ring-2
-                            focus:ring-blue-800 dark:focus:ring-blue-500"
-                        />
-                    </div>
-
-                    {/* Password */}
-                    <div className="mb-6">
-                        <input
-                            type="password"
-                            placeholder="Password"
-                            className="w-full rounded px-4 py-2 text-sm 
-                            bg-blue-50 dark:bg-slate-700
-                            border border-gray-200 dark:border-slate-600
-                            text-gray-800 dark:text-gray-100
-                            placeholder-gray-400
-                            focus:outline-none focus:ring-2
-                            focus:ring-blue-800 dark:focus:ring-blue-500"
-                        />
-                    </div>
-
-                    {/* Actions */}
-                    <div className="flex items-center justify-between mb-6">
-                        <button
-                            className="px-6 py-2 text-sm font-semibold rounded
-                            bg-blue-800 hover:bg-blue-500
-                            dark:bg-blue-800 dark:hover:bg-blue-600
-                            text-white transition"
-                        >
-                            SUBMIT
-                        </button>
-
-                        <div className="flex items-center gap-2 text-sm">
-                            <input
-                                id="remember"
-                                type="checkbox"
-                                className="accent-blue-500"
-                            />
-
-                            <label
-                                htmlFor="remember"
-                                className="cursor-pointer select-none text-gray-600 dark:text-gray-300"
-                            >
-                                Remember
-                            </label>
-
-                            <Link
-                                to="/forgot-password"
-                                className="text-blue-800 dark:text-blue-300 hover:underline ml-2"
-                            >
-                                Forgot Password?
-                            </Link>
+                    {error && (
+                        <div className="mb-4 text-sm text-red-600 text-center">
+                            {error}
                         </div>
-                    </div>
+                    )}
+
+                    <form onSubmit={handleSubmit}>
+                        {/* Username */}
+                        <div className="mb-4">
+                            <input
+                                type="text"
+                                placeholder="Username"
+                                value={username}
+                                onChange={(e) => setUsername(e.target.value)}
+                                required
+                                className="w-full rounded px-4 py-2 border"
+                            />
+                        </div>
+
+                        {/* Password */}
+                        <div className="mb-6">
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                required
+                                className="w-full rounded px-4 py-2 border"
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            disabled={loading}
+                            className="w-full py-2 bg-blue-800 text-white rounded"
+                        >
+                            {loading ? "PLEASE WAIT..." : "LOGIN"}
+                        </button>
+                    </form>
+
                 </div>
             </div>
 
-            {/* Footer */}
             <AppFooter />
         </div>
     );

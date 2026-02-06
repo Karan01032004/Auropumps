@@ -69,7 +69,7 @@ const AppSidebar = ({ open, collapsed, onClose }) => {
 
                         {/* Full logo (expanded) */}
                         <img
-                            src="/images/logo.png"
+                            src="/images/auro-pumps-logo-png.png"
                             alt="Logo"
                             className={`
             h-10 w-auto transition-all ml-2
@@ -186,6 +186,94 @@ const AppSidebar = ({ open, collapsed, onClose }) => {
                                 }
                             >
                                 View Blogs
+                            </NavLink>
+                        </div>
+                    )}
+                    {/* Category Management */}
+                    <button
+                        onClick={() => toggle("Category")}
+                        className={`${baseItem} w-full justify-between hover:bg-gray-100 dark:hover:bg-gray-800 mt-1`}
+                    >
+                        <div className="flex items-center gap-3">
+                            <RiFileEditLine className="w-5 h-5" />
+                            {!collapsed && <span>Category Management</span>}
+                        </div>
+
+                        {!collapsed && (
+                            <ChevronIcon
+                                className={`transition-transform ${menuOpen.Category ? "rotate-90" : ""}`}
+                            />
+                        )}
+                    </button>
+                    {menuOpen.Category && !collapsed && (
+                        <div className="ml-4 mt-1 space-y-1 border-l border-gray-200 dark:border-gray-700 pl-3 animate-fadeIn">
+                            <NavLink
+                                to="/poweradmin/add-category"
+                                className={({ isActive }) =>
+                                    `block px-3 py-2 rounded ${isActive
+                                        ? "bg-indigo-50 text-indigo-600"
+                                        : "hover:bg-indigo-50 hover:text-indigo-600"
+                                    }`
+                                }
+                            >
+                                Add Category
+                            </NavLink>
+
+                            <NavLink
+                                to="/poweradmin/view-category"
+                                end
+                                className={({ isActive }) =>
+                                    `block px-3 py-2 rounded ${isActive
+                                        ? "bg-indigo-50 text-indigo-600"
+                                        : "hover:bg-indigo-50 hover:text-indigo-600"
+                                    }`
+                                }
+                            >
+                                View Categories
+                            </NavLink>
+                        </div>
+                    )}
+                    {/* gallery Management */}
+                    <button
+                        onClick={() => toggle("gallery")}
+                        className={`${baseItem} w-full justify-between hover:bg-gray-100 dark:hover:bg-gray-800 mt-1`}
+                    >
+                        <div className="flex items-center gap-3">
+                            <RiFileEditLine className="w-5 h-5" />
+                            {!collapsed && <span>Gallery Management</span>}
+                        </div>
+
+                        {!collapsed && (
+                            <ChevronIcon
+                                className={`transition-transform ${menuOpen.gallery ? "rotate-90" : ""}`}
+                            />
+                        )}
+                    </button>
+                    {menuOpen.gallery && !collapsed && (
+                        <div className="ml-4 mt-1 space-y-1 border-l border-gray-200 dark:border-gray-700 pl-3 animate-fadeIn">
+                            <NavLink
+                                to="/poweradmin/addImageGallery"
+                                className={({ isActive }) =>
+                                    `block px-3 py-2 rounded ${isActive
+                                        ? "bg-indigo-50 text-indigo-600"
+                                        : "hover:bg-indigo-50 hover:text-indigo-600"
+                                    }`
+                                }
+                            >
+                                Add Images
+                            </NavLink>
+
+                            <NavLink
+                                to="/poweradmin/Viewimagegallery"
+                                end
+                                className={({ isActive }) =>
+                                    `block px-3 py-2 rounded ${isActive
+                                        ? "bg-indigo-50 text-indigo-600"
+                                        : "hover:bg-indigo-50 hover:text-indigo-600"
+                                    }`
+                                }
+                            >
+                                View Image Gallery
                             </NavLink>
                         </div>
                     )}

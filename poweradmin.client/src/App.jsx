@@ -17,10 +17,14 @@ import ForgotPassword from "./poweradmin/pages/ForgotPassword/ForgotPassword";
 import OtpVerify from "./poweradmin/pages/ForgotPassword/OtpVerify";
 import AddBlog from "./poweradmin/pages/BlogManagement/AddBlog";
 import ViewBlog from "./poweradmin/pages/BlogManagement/ViewBlogs";
+import AddImageGallery from "./poweradmin/pages/CategoryManagement/AddImageGallery";
+import Viewimagegallery from "./poweradmin/pages/CategoryManagement/Viewimagegallery";
 
 function App() {
     return (
+
         <ThemeProvider>
+         {/*   <BrowserRouter basename="/auropumps">  </BrowserRouter>*/}
             <Routes>
                 <Route path="signin" element={<SignIn />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -32,16 +36,23 @@ function App() {
                     <Route path="add-product" element={<AddProduct />} />
                     <Route path="view-product" element={<ViewProduct />} />
                     <Route path="add-category" element={<AddCategory />} />
+                    <Route path="Addimagegallery" element={<AddImageGallery />} />
+                    <Route path="Viewimagegallery" element={<Viewimagegallery />} />
                     <Route path="view-category" element={<ViewCategory />} />
+                    <Route path="edit-category/:id" element={<AddCategory />} />
+                    <Route path="edit-image-gallery/:id" element={<AddImageGallery />} />
+
                     <Route path="add-blog" element={<AddBlog />} />
                     <Route path="view-blog" element={<ViewBlog />} />
                     <Route path="banner" element={<BannerManagement />}>
                         <Route index element={<BannerTable />} />
                         <Route path="add" element={<BannerForm />} />
                         <Route path="edit/:id" element={<BannerForm />} />
+
                     </Route>
                 </Route>
-            </Routes>
+                </Routes>
+           
         </ThemeProvider>
     );
 }

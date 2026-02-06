@@ -37,3 +37,53 @@ D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\refin
 D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.pdb
 D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.genruntimeconfig.cache
 D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\ref\Poweradmin.Server.dll
+D:\chaitali\react projects\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.sourcelink.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\appsettings.Development.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.staticwebassets.endpoints.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\spa.proxy.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\appsettings.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.exe
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.deps.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.runtimeconfig.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Poweradmin.Server.pdb
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\MySqlConnector.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.csproj.AssemblyReference.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\spa.proxy.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.AssemblyInfoInputs.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.AssemblyInfo.cs
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.csproj.CoreCompileInputs.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.sourcelink.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\scopedcss\bundle\Poweradmin.Server.styles.css
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradm.C6239B70.Up2Date
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\refint\Poweradmin.Server.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.pdb
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\Poweradmin.Server.genruntimeconfig.cache
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\obj\Release\net8.0\ref\Poweradmin.Server.dll
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\web.config
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\appsettings.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\Poweradmin.Server.deps.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\Poweradmin.Server.runtimeconfig.json
+C:\Users\DNC\AppData\Roaming\Output Messenger\GIAAA\Received Files\202602\Poweradmin\Poweradmin\Poweradmin.Server\bin\Release\net8.0\publish\Poweradmin.Server.staticwebassets.endpoints.json

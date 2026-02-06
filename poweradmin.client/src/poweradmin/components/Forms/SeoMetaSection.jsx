@@ -7,8 +7,8 @@ import {
 } from "react-icons/hi";
 
 const SeoMetaSection = ({
-    title,
-    setTitle,
+    seoTitle,
+    setSeoTitle,
     metaTags,
     setMetaTags,
     productSlug = "your-product-slug",
@@ -21,26 +21,26 @@ const SeoMetaSection = ({
 
     const dynamicMetaExample = useMemo(
         () => `<!-- Basic SEO -->
-<meta name="title" content="${title || "Product Name"}" />
-<meta name="description" content="Buy ${title || "this product"} at best price. High quality, fast delivery." />
-<meta name="keywords" content="${title || "product"}, buy online, best price" />
+<meta name="title" content="${seoTitle || "Product Name"}" />
+<meta name="description" content="Buy ${seoTitle || "this product"} at best price. High quality, fast delivery." />
+<meta name="keywords" content="${seoTitle || "product"}, buy online, best price" />
 
 <!-- Canonical -->
 <link rel="canonical" href="${pageUrl}" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="product" />
-<meta property="og:title" content="${title || "Product Name"}" />
-<meta property="og:description" content="Buy ${title || "this product"} at best price." />
+<meta property="og:title" content="${seoTitle || "Product Name"}" />
+<meta property="og:description" content="Buy ${seoTitle || "this product"} at best price." />
 <meta property="og:url" content="${pageUrl}" />
 <meta property="og:image" content="${baseUrl}/images/${productSlug}.jpg" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="${title || "Product Name"}" />
-<meta name="twitter:description" content="Buy ${title || "this product"} at best price." />
+<meta name="twitter:title" content="${seoTitle || "Product Name"}" />
+<meta name="twitter:description" content="Buy ${seoTitle || "this product"} at best price." />
 <meta name="twitter:image" content="${baseUrl}/images/${productSlug}.jpg" />`,
-        [title, pageUrl, baseUrl, productSlug]
+        [seoTitle, pageUrl, baseUrl, productSlug]
     );
 
     const handleCopy = async () => {
@@ -57,8 +57,8 @@ const SeoMetaSection = ({
 
             {/* Browser Title */}
             <input
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
+                value={seoTitle}
+                onChange={(e) => setSeoTitle(e.target.value)}
                 placeholder="Browser Title (30-65 characters)"
                 className="mb-4 w-full rounded-lg border border-gray-300 px-3 py-2"
             />
